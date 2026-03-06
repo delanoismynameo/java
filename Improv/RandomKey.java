@@ -1,0 +1,15 @@
+package Improv;
+
+public class RandomKey {
+    // 24 Major and Minor Keys
+    String[] allKeys = {
+        "C Major", "G Major", "D Major", "A Major", "E Major", "B Major", 
+        "F# Major", "C# Major", "F Major", "Bb Major", "Eb Major", "Ab Major",
+        "A Minor", "E Minor", "B Minor", "F# Minor", "C# Minor", "G# Minor", 
+        "D# Minor", "A# Minor", "D Minor", "G Minor", "C Minor", "F Minor"
+    };
+    public String getRandomKey() {
+        int index = (int) (Math.random() * allKeys.length);
+        return allKeys[index];
+    }
+}
