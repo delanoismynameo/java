@@ -15,7 +15,7 @@ public class Main {
         String fileName = "practice_log.txt";
 
         while (menuOption != 3) { 
-            System.out.println("Welcome to the piano improvization assistant!\nWhat would you like to do? (enter number)");
+            System.out.println("Welcome to the piano improvisation assistant!\nWhat would you like to do? (enter number)");
             System.out.println("1. Random Key\n2. View Practice History\n3. Exit"); 
 
             if (userSelection.hasNextInt()) {
